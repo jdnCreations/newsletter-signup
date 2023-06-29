@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="successCard.css">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+
+  <div id="successCard">
+      <img src="/assets/images/icon-success.svg" alt="">
+      <div id="cardText">
+        <h1 id="successTitle">Thanks for subscribing!</h1>
+        <p id="successP">A confirmation email has been sent to <span id="emailAdd"></span> Please open it and click the button inside to confirm your subscription.</p>
+      </div>
+      <button id="btnDismiss">Dismiss message</button>
+    </div>
+
+  <div id="mainCard">
+      <div id="left">  
+        <h1 class="title">Stay updated!</h1>
+
+        <p class="body">Join 60,000+ product managers receiving monthly updates on:</p>
+
+        <ul>
+          <li><img src="/assets/images/icon-list.svg" alt="">Product discovery and building what matters</li>
+          <li><img src="/assets/images/icon-list.svg" alt="">Measuring to ensure updates are a success</li>
+          <li><img src="/assets/images/icon-list.svg" alt="">And much more!</li>
+        </ul>
+
+        <form action="" id="form">
+          <div id="label-error-container">
+            <label id="labelEmail" id="email">Email address</label>
+            <p id="errorMsg">Valid email required</p>
+          </div>
+          <input name="email" type="email" id="email" placeholder="email@company.com"></input>
+          <button type="submit">Subscribe to monthly newsletter</button>
+        </form>
+    </div>
+
+      <div id="right">
+        <img src="./assets/image.svg" alt="">
+      </div>
+  </div>
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+
+  <!--  -->
+
+  <!-- Success message end -->
+  <script src="script.js"></script>
+</body>
+</html>

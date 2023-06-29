@@ -1,0 +1,46 @@
+#successCard {
+    background: #FFF;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 35px;
+    padding: 46px 61px 62px 61px;
+    gap: 41px;
+}
+
+#successTitle {
+    font-size: 56px;
+    color: #242742;
+    margin: 0;
+    line-height: 100%;
+}
+
+#successP {
+    font-size: 16px;
+}
+
+#cardText {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 378px;
+    line-height: 148%;
+}
+
+#btnDismiss {
+    display: flex;
+    width: 378px;
+    padding: 18px 71px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#btnDimiss:hover {
+    border: none;
+}
+
+span {
+    font-weight: 700;
+}
